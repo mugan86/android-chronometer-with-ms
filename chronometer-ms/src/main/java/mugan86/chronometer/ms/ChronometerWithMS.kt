@@ -46,7 +46,6 @@ class ChronometerWithMS @JvmOverloads constructor(context: Context, attrs: Attri
         }
     }
 
-
     interface OnChronometerTickListener {
 
         fun onChronometerTick(chronometer: ChronometerWithMS)
