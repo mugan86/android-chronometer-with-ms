@@ -7,7 +7,7 @@ ext {
     // compile '<groupId>:<artifactId>:<libVersion>'
     groupId = 'mugan86.chronometer.ms' // package name of the project
     artifactId = "chronometer-ms" // module name of the library
-    libVersion = "1.0"
+    libVersion = project.library_version
 }
 version = libVersion
 group = groupId
